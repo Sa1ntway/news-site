@@ -97,13 +97,11 @@ img {
 .main-con {
     display: flex;
     margin-top: 31px;
+    justify-content: center;
+    position: relative;
+
 }
 
-.last-news {
-    padding-left: 29px;
-    min-width: 217px;
-    max-width: 265px
-}
 
 .adv-title {
     margin: 0;
@@ -112,24 +110,33 @@ img {
     margin-bottom: 23px;
 }
 
-.last-news-text {
-    font-size: 12px;
-    line-height: 18px;
-    margin-bottom: 18px;
 
-}
-
-.last-news-time {
-    color: #888888;
-    margin-right: 6px;
-}
 
 .actions {
     min-width: 153px;
+    position: absolute;
+    left: 0;
+}
+
+
+.bread-inner {
+    display: flex;
+    align-items: center;
+}
+
+.bread-text {
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.bread-category {
+    color: #888888;
 }
 
 .main-content {
     width: 100%;
+    margin-bottom: 114px;
+    max-width: 780px;
 }
 
 .category-info {
@@ -180,149 +187,27 @@ img {
 
 }
 
-.comments {
-    margin-bottom: 50px;
-    margin-top: 28px;
+.edit-actions {
+    margin-top: 53px;
 }
 
-.comments-count {
-    padding: 16px 0;
-    border-bottom: 1px solid #ECECEC;
-}
-
-.comments-title {
-    color: #888888;
-}
-
-.comments-input {
-    display: flex;
-    margin-top: 44px;
-}
-
-.avatar {
-    min-width: 69px;
-    height: 69px;
-    border-radius: 50%;
-    overflow: hidden;
-    max-width: 69px;
-}
-
-.avatar img {
-    width: 100%;
-    height: 100%;
-}
-
-
-.comments-input-fields {
-    margin-left: 21px;
-    width: 100%;
-}
-
-.comments-text-field {
-    width: 100%;
-    border: none;
-    border-bottom: 1px solid #ECECEC;
-    padding: 4px 0;
-    background: white;
-    outline: none;
-
-}
-
-.comments-actions {
-    margin-top: 11px;
-}
-
-.comments-buttons {
+.btns-holder {
     width: fit-content;
     margin-left: auto;
 }
 
-.cancel,
-.submit {
-    height: 49px;
-    padding: 0 31px;
-    font-size: 14px;
-    font-weight: 500;
-}
-
-.cancel {
+.edit-actions button {
     border: none;
-    background: none;
+    outline: none;
+    background-color: white;
     color: black;
-
-}
-
-.submit {
-    border: none;
-    background: #FF1850;
-    color: white;
-}
-
-.comments-customers {
-    margin-top: 44px;
-}
-
-
-.comments-customers-wrapper {
-    display: flex;
-}
-
-.comments-customers-texts {
-    margin-left: 21px;
-}
-
-
-.comments-customers-name {
+    height: 49px;
+    padding: 0 32px;
     font-weight: 600;
-    line-height: 24px;
-    font-size: 16px;
+    font-family: 'Montserrat';
 }
 
-.comments-customers-text {
-    line-height: 24px;
-    margin-top: 6px;
-
-}
-
-.comments-customers-answer {
-    font-weight: 500;
-    line-height: 24px;
-    color: #888888;
-    margin-top: 8px;
-    margin-bottom: 8px;
-
-}
-
-.hide-answers {
-    display: flex;
-    align-items: center;
-    margin-bottom: 17px;
-
-}
-
-.hide-answers-text {
-    color: #FF1850;
-    margin-left: 12px;
-    font-weight: 500;
-}
-
-
-.small-avatar {
-    min-width: 36px;
-    max-width: 36px;
-    height: 36px;
-}
-
-.comments-link {
-    color: #FF1850;
-}
-
-.comments-save-changes {
-    font-weight: 500;
-    margin-left: 24px;
-}
-
-.comments-save-changes-wrapper {
-    display: flex;
-    align-items: center;
+#edit-submit {
+    background-color: #FF1850;
+    color: white;
 }

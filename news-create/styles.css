@@ -1,0 +1,157 @@
+body,
+p {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+
+}
+
+img {
+    vertical-align: middle;
+}
+
+.header {
+    background-color: black;
+}
+
+.container {
+    width: 100%;
+    max-width: 1194px;
+    margin: 0 auto;
+}
+
+.header-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
+.header-wrapper p {
+    margin-right: 21px;
+}
+
+.header-wrapper .live-img {
+    margin-right: 60px;
+}
+
+.header-avatar {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    object-position: center;
+    margin-right: 20px;
+    margin-left: 18px;
+}
+
+.header-acc {
+    margin-left: 30px;
+    margin-right: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.header-active {
+    color: #888888;
+}
+
+.live-img {
+    padding: 13px 0 14px 0;
+}
+
+
+.main-con {
+    display: flex;
+    margin-top: 31px;
+    justify-content: center;
+    position: relative;
+
+}
+
+
+
+.actions {
+    min-width: 153px;
+    position: absolute;
+    left: 0;
+}
+
+
+.bread-inner {
+    display: flex;
+    align-items: center;
+}
+
+.bread-text {
+    font-weight: 600;
+    margin: 0 10px;
+}
+
+.bread-category {
+    color: #888888;
+}
+
+.main-content {
+    width: 100%;
+    margin-bottom: 114px;
+    max-width: 780px;
+}
+
+.title {
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 42px;
+}
+
+.upload-img {
+    width: 100%;
+    height: 407px;
+    background-color: #C4C4C4;
+    display: block;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#upload-img-input {
+    display: none;
+}
+
+.news-main-text {
+    font-size: 18px;
+    margin-top: 34px;
+}
+
+
+.edit-actions {
+    margin-top: 53px;
+}
+
+.btns-holder {
+    width: fit-content;
+    margin-left: auto;
+}
+
+.edit-actions button {
+    border: none;
+    outline: none;
+    background-color: white;
+    color: black;
+    height: 49px;
+    padding: 0 32px;
+    font-weight: 600;
+    font-family: 'Montserrat';
+}
+
+#edit-submit {
+    background-color: #FF1850;
+    color: white;
+}
