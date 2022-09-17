@@ -57,6 +57,38 @@ img {
 
 }
 
+.search {
+    border: none;
+    background-color: transparent;
+    outline: none;
+    padding: 0;
+    position: relative;
+
+}
+
+.search-icon {
+    cursor: pointer;
+}
+
+.search-input {
+    position: absolute;
+    display: none;
+    right: 25px;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #C4C4C4;
+    width: 183px;
+    outline: none;
+    font-family: 'Montserrat';
+    padding: 2px 4px;
+}
+
+.search:focus .search-input,
+.search-input:hover,
+.search-input:focus {
+    display: block;
+}
+
 .header-active {
     color: #888888;
 }
